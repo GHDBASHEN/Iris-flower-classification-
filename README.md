@@ -41,7 +41,23 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 
 The program will display a scatter plot of the Iris dataset and print the model's accuracy and classification report
 
+![image](https://github.com/user-attachments/assets/5e6bf5ac-dbcb-4cea-92d6-ba3e5ceb4e25)
 
+![image](https://github.com/user-attachments/assets/af565626-1850-4ee0-921c-d3de95d6cd9c)
+
+```
+Accuracy: 0.977
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       0.94      1.00      0.97        16
+           2       1.00      0.94      0.97        13
+
+    accuracy                           0.98        45
+   macro avg       0.98      0.98      0.98        45
+weighted avg       0.98      0.98      0.98        45
+```
 
 ## Project Structure
 - `iris_classification.py`: The main script containing the entire machine learning pipeline.
