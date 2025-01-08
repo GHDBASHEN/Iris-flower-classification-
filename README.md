@@ -46,17 +46,19 @@ The program will display a scatter plot of the Iris dataset and print the model'
 ![image](https://github.com/user-attachments/assets/af565626-1850-4ee0-921c-d3de95d6cd9c)
 
 ```
-Accuracy: 0.977
+Accuracy: 1.0
 Classification Report:
                precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        16
-           1       0.94      1.00      0.97        16
-           2       1.00      0.94      0.97        13
+           0       1.00      1.00      1.00        19
+           1       1.00      1.00      1.00        13
+           2       1.00      1.00      1.00        13
 
-    accuracy                           0.98        45
-   macro avg       0.98      0.98      0.98        45
-weighted avg       0.98      0.98      0.98        45
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+KNN Accuracy: 1.0
 ```
 
 ## Project Structure
